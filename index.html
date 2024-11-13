@@ -10,10 +10,10 @@
     <div class="popup hidden">
         <div class="popup-container">
             <button class="close-button" type="button"><span class="visually-hidden">Закрыть окно</span></button>
-            <div class="feedback-wrapper"  style="width: 389px;">
-                <header class="section-title-wrapper" style="width: 369px; margin-left: -20px;">
-                    <h3 class="section-title" style="font-size: 20px;">Ваш фидбек</h3>
-                    <div class="title-line" style="width: 66px;"></div>
+            <div class="feedback-wrapper">
+                <header class="section-title-wrapper">
+                    <h3 class="section-title">Ваш фидбек</h3>
+                    <div class="title-line"></div>
                 </header>
                 <div class="feedback-content">
                     <form class="feedback-form">
@@ -46,7 +46,7 @@
                             <label class="field-group">
                             <span class="form-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
                             <textarea class="field-textarea" placeholder="Может, больше рецептов?"
-                            style="width: 330px; height: 130px;" required></textarea>
+ required></textarea>
                             </label>
                         </div>
 
@@ -64,6 +64,9 @@
             <div class="menu-line">
                 <a class="menu-logo" href="#"><img src="svg/noemi-logo.svg" class="logo" alt="logo_noemi"></a>
                 <nav class="menu-nav">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
                     <ul class="menu-list">
                         <li class="menu-list-item">
                             <a class="menu-link" href="#">Главная</a>
@@ -94,7 +97,7 @@
     <div class="noemi-wrapper">
         <section class="trends">
             <div class="section-title-wrapper">
-                <h3 class="section-title" style="font-size: 20px;">Сейчас в тренде</h3>
+                <h3 class="section-title">Сейчас в тренде</h3>
                 <div class="title-line"></div>
             </div>
             <div class="trends-wapper">
@@ -105,7 +108,7 @@
                             <li class="trend-tag-item"><a class="trend-tag-link" href="#">interior</a></li>
                         </ul>
                         <h2 class="trend-card-title">
-                            <a class="trend-card-title-link" href="#">Сейчас в тренде: сад<br>на подоконнике</a>
+                            <a class="trend-card-title-link" href="#">Сейчас в тренде: сад на подоконнике</a>
                         </h2>
                     </div>
                 </div>
@@ -115,7 +118,7 @@
                             <li class="trend-tag-item"><a class="trend-tag-link" href="#">food</a></li>
                         </ul>
                         <h2 class="trend-card-title">
-                            <a class="trend-card-title-link" href="#">Сыры на красивых<br>картинках из интернета:<br>какие они на вкус?</a>
+                            <a class="trend-card-title-link" href="#">Сыры на красивых картинках из интернета: какие они на вкус?</a>
                         </h2>
                     </div>
                 </div>
@@ -126,7 +129,7 @@
                             <li class="trend-tag-item"><a class="trend-tag-link" href="#">travel</a></li>
                         </ul>
                         <h2 class="trend-card-title">
-                            <a class="trend-card-title-link" href="#">Собираемся в первый<br>поход в горы?</a>
+                            <a class="trend-card-title-link" href="#">Собираемся в первый поход в горы?</a>
                         </h2>
                     </div>
                 </div>
@@ -137,7 +140,7 @@
                             <li class="trend-tag-item"><a class="trend-tag-link" href="#">health</a></li>
                         </ul>
                         <h2 class="trend-card-title">
-                            <a class="trend-card-title-link" href="#">Сейчас в тренде: сколько<br>витамина С в лимонах?</a>
+                            <a class="trend-card-title-link" href="#">Сейчас в тренде: сколько витамина С в лимонах?</a>
                         </h2>
                     </div>
                 </div>
@@ -146,8 +149,8 @@
         <div class="postlist-sidebar-wrapper">
             <main class="postlist">
                 <article class="post-wrapper">
-                    <div class="post-image">
-                        <img src="images/last-post1.jpg" alt="Человек на пустынном пляже">
+                    <div>
+                        <img src="images/last-post1.jpg" class="post-image" alt="Человек на пустынном пляже">
                     </div>
                     <div class="post-content">
                         <header class="post-header">
@@ -171,10 +174,11 @@
                             <p>Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
                         </div>
                     </div>
+                    <div class="post-line"></div>
                 </article>
                 <article class="post-wrapper">
-                    <div class="post-image">
-                        <img src="images/last-post2.jpg" alt="Йога на пляже">
+                    <div>
+                        <img src="images/last-post2.jpg" class="post-image" alt="Йога на пляже">
                     </div>
                     <div class="post-content">
                         <header class="post-header">
@@ -198,10 +202,11 @@
                             <p>Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу</p>
                         </div>
                     </div>
+                    <div class="post-line"></div>
                 </article>
                 <article class="post-wrapper">
-                    <div class="post-image">
-                        <img src="images/last-post3.jpg" alt="Девушка на концерте">
+                    <div>
+                        <img src="images/last-post3.jpg" class="post-image" alt="Девушка на концерте">
                     </div>
                     <div class="post-content">
                         <header class="post-header">
@@ -223,10 +228,11 @@
                             <p>Мы составили список лучших летних фестивалей по всему миру</p>
                         </div>
                     </div>
+                    <div class="post-line"></div>
                 </article>
                 <article class="post-wrapper">
-                    <div class="post-image">
-                        <img src="images/last-post4.jpg" alt="Накрытый стол">
+                    <div>
+                        <img src="images/last-post4.jpg" class="post-image" alt="Накрытый стол">
                     </div>
                     <div class="post-content">
                         <header class="post-header">
@@ -250,10 +256,11 @@
                             <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию из еды</p>
                         </div>
                     </div>
+                    <div class="post-line"></div>
                 </article>
                 <article class="post-wrapper">
-                    <div class="post-image">
-                        <img src="images/last-post5.jpg" alt="Подушка с принтом">
+                    <div>
+                        <img src="images/last-post5.jpg" class="post-image" alt="Подушка с принтом">
                     </div>
                     <div class="post-content">
                         <header class="post-header">
@@ -280,12 +287,13 @@
                             <p>Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку</p>
                         </div>
                     </div>
+                    <div class="post-line"></div>
                 </article>
             </main>
-            <aside class="sidebar" style="width: 273px">
+            <aside class="sidebar">
                 <section class="sidebar-section latest-post">
-                    <div class="section-title-wrapper" style="width: 273px;">
-                        <h3 class="section-title">Новые посты</h3>
+                    <div class="section-title-wrapper">
+                        <h3 class="section-title-sidebar">Новые посты</h3>
                         <div class="title-line"></div>
                     </div>
                     <article class="newpost-wrapper" style="margin-top: 0;">
@@ -356,21 +364,21 @@
                     </form>
                 </section>
                 <section class="sidebar-section subscribe">
-                    <div class="section-title-wrapper" style="width: 273px;">
-                        <h3 class="section-title">Рассылка</h3>
+                    <div class="section-title-wrapper">
+                        <h3 class="section-title-sidebar">Рассылка</h3>
                         <div class="title-line"></div>
                     </div>
                     <form class="mailing-wrapper">
                         <label class="label">
                             <span class="visually-hidden">Введите адрес электронной почты</span>
-                            <input class="search-input" type="email" style="width: 272px;" placeholder="Ваш email-адрес" required>
+                            <input class="search-input" type="email" placeholder="Ваш email-адрес" required>
                         </label>
                             <button class="subscribe-button" type="submit">подписаться</button>
                     </form>
                 </section>
                 <section class="sidebar-section tags">
-                    <div class="section-title-wrapper" style="width: 273px;">
-                        <h3 class="section-title">Теги</h3>
+                    <div class="section-title-wrapper">
+                        <h3 class="section-title-sidebar">Теги</h3>
                         <div class="title-line"></div>
                     </div>
                     <ul class="tag-list">
@@ -401,8 +409,8 @@
                     </ul>
                 </section>
                 <section class="sidebar-section categories">
-                    <div class="section-title-wrapper" style="width: 273px;">
-                        <h3 class="section-title">Темы</h3>
+                    <div class="section-title-wrapper">
+                        <h3 class="section-title-sidebar">Темы</h3>
                         <div class="title-line"></div>
                     </div>
                     <ul class="categories-list">
@@ -430,14 +438,17 @@
         </div>
         <section class="shop">
             <div class="section-title-wrapper">
-                <h3 class="section-title" style="font-size: 20px;">Наши изделия</h3>
+                <h3 class="section-title">Наши изделия</h3>
                 <div class="title-line"></div>
             </div>
             <div class="shop-wrapper">
                 <article class="shop-product">
-                    <div class="shop-product-image">
-                        <img src="images/shop-item-desk1.jpg" alt="Подушка с принтом">
-                    </div>
+                    <picture class="shop-product-image">
+                        <source media="(min-width: 1200px)" srcset="images/shop-item-desk1.jpg">
+                        <source media="(min-width: 641px) and (max-width: 1199px)" srcset="images/shop-item-tablet1.jpg">
+                        <source media="(max-width: 640px)" srcset="images/shop-item-mobile1.jpg">
+                        <img class="store-image" src="images/shop-item-desk1.jpg" alt="pillow picture">
+                    </picture>
                     <div class="shop-product-wrapper">
                         <h3 class="shop-product-title">Подушки на диван</h3>
                         <div class="shop-product-info">Набор из двух подушек с модными принтами. Видео о создании <a href="0" class="shop-info-link">здесь</a>.</div>
@@ -451,9 +462,12 @@
                     </div>
                 </article>
                 <article class="shop-product">
-                    <div class="shop-product-image">
-                        <img src="images/shop-item-desk2.jpg" alt="Заяц ручной работы">
-                    </div>
+                    <picture class="shop-product-image">
+                        <source media="(min-width: 1200px)" srcset="images/shop-item-desk2.jpg">
+                        <source media="(min-width: 641px) and (max-width: 1199px)" srcset="images/shop-item-tablet2.jpg">
+                        <source media="(max-width: 640px)" srcset="images/shop-item-mobile2.jpg">
+                        <img class="store-image" src="images/shop-item-desk2.jpg" alt="pillow picture">
+                    </picture>
                     <div class="shop-product-wrapper">
                         <h3 class="shop-product-title">Кукла «зайчик»</h3>
                         <div class="shop-product-info">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#" class="shop-info-link">весенняя серия постов</a> в блоге и несколько подкастов.</div>
@@ -467,9 +481,12 @@
                     </div>
                 </article>
                 <article class="shop-product">
-                    <div class="shop-product-image">
-                        <img src="images/shop-item-desk3.jpg" alt="Деревянная шестиугольная рамка">
-                    </div>
+                    <picture class="shop-product-image">
+                        <source media="(min-width: 1200px)" srcset="images/shop-item-desk3.jpg">
+                        <source media="(min-width: 641px) and (max-width: 1199px)" srcset="images/shop-item-tablet3.jpg">
+                        <source media="(max-width: 640px)" srcset="images/shop-item-mobile3.jpg">
+                        <img class="store-image" src="images/shop-item-desk2.jpg" alt="pillow picture">
+                    </picture>
                     <div class="shop-product-wrapper">
                         <h3 class="shop-product-title">Шестиугольная рамка</h3>
                         <div class="shop-product-info">Необычная рамка для украшения дома из видео <a href="#" class="shop-info-link">«Как сделать рамку из подручных средств за 30 минут»</a></div>
